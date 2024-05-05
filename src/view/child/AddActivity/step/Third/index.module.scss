@@ -1,0 +1,30 @@
+.all {
+    padding-bottom: 50px;
+
+}
+
+.info {
+    display: flex;
+    line-height: 50px;
+
+    .title {
+        text-align: left;
+        width: 15%;
+    }
+
+    .detail {
+        width: 80%;
+        margin-left: 50rpx;
+        position: relative;
+    }
+}
+
+.pricelist {
+    display: flex;
+}
+
+.prices {
+    background-color: rgb(209, 209, 209);
+    margin: 0px 40px;
+
+}

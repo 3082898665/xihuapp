@@ -1,0 +1,36 @@
+.all {
+
+    display: flex;
+    width: 95vw;
+}
+
+.content {
+    display: flex;
+    width: 90vw;
+    height: 60vh;
+}
+
+.videoall {
+    // display: flex;
+    justify-content: center;
+}
+
+.wke {
+    width: 70vw;
+    position: relative;
+    left: 5vw;
+}
+
+.start {
+    margin-left: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pause {
+    position: relative;
+    top: -19vh;
+    left: 35vw;
+    cursor: pointer;
+}

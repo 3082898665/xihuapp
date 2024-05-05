@@ -1,0 +1,249 @@
+.all {
+    position: relative;
+    height: 139vh;
+    /* background-color: white; */
+
+    background-color: rgb(247, 247, 249);
+    overflow: hidden;
+}
+
+.title {
+    /* display: flex; */
+    /* margin-bottom: 1px; */
+    color: black;
+    line-height: 40px;
+    font-size: 15px;
+    /* padding: 10px; */
+    /* position: fixed; */
+    /* top: 1px; */
+    width: 100vw;
+    /* padding-bottom: 5px; */
+    font-weight: 550;
+    font-size: 18px;
+    transition: all 1s;
+    margin-top: -1%;
+    z-index: 10;
+}
+
+.main {
+    display: flex;
+}
+
+.pic {
+    width: 100vw;
+    height: 100%;
+}
+
+.main {
+    /* background-color: rgb(247, 247, 249); */
+    position: relative;
+    /* width: 90vw; */
+    top: -1.5%;
+    margin-left: 7vw;
+}
+
+.header {
+    display: flex;
+    background-color: white;
+    width: 83vw;
+    height: 130px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #c4c3c32d,
+        -5px -5px 5px #ffffff;
+}
+
+.headpic {
+    width: 9%;
+    height: 100px;
+    /* background-coor: rgb(225, 225, 228); */
+    border-radius: 100%;
+    margin-left: 2%;
+    position: relative;
+    /* top: -10%; */
+}
+
+.host {
+    width: 90%;
+    border-radius: 100%;
+    position: relative;
+    left: 6%;
+    top: 3%;
+    box-shadow: 5px 5px 5px #b9b8b8,
+        -5px -5px 5px #ffffff;
+}
+
+.peoinfo {
+    position: relative;
+    margin-left: 20px;
+    top: 5%;
+    width: 67%;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lxi {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.act {
+    display: flex;
+}
+
+.actvity {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgb(140, 140, 140);
+}
+
+.jif {
+    margin: 9px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.control {
+    display: flex;
+}
+
+.coninfo {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 23px;
+    border-radius: 20px;
+    border: 2px solid rgb(171, 171, 171);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.change {
+    display: flex;
+    margin: 10px 0
+}
+
+.changel {
+    width: 15%;
+    line-height: 30px;
+}
+
+.changer {
+    margin-left: 10px;
+}
+
+.detail {
+    display: flex;
+    margin-left: 7vw;
+}
+
+.dleft {
+    width: 18%;
+
+}
+
+.dlt {
+    background-color: white;
+    width: 100%;
+    height: 47vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #c4c3c32d,
+        -5px -5px 5px #ffffff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.colo {
+    height: 6px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: black;
+}
+
+.videobox {
+    position: relative;
+    /* top: 1vh;? */
+    left: 10vh;
+    cursor: pointer;
+}
+
+.video {
+    width: 23vh;
+}
+
+.dlb {
+    background-color: white;
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #c4c3c32d,
+        -5px -5px 5px #ffffff;
+    margin-top: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.hcolor {
+    background-color: black;
+    height: 6px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.dtitle {
+    width: 60%;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 1px;
+    transition: all .4s linear;
+    cursor: pointer;
+
+}
+
+.dtitle:hover {
+    background-size: 100% 1px;
+}
+
+.mlist {
+    padding: 10px;
+}
+
+.hotact {
+    width: 60%;
+    color: black;
+    ;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    overflow: hidden;
+    overflow-y: scroll;
+    /* background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 1px;
+    transition: all .4s linear; */
+}
+
+.dright {
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    margin-left: 1.5%;
+    box-shadow: 5px 5px 5px #c4c3c32d,
+        -5px -5px 5px #ffffff;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.drcon {
+    padding: 10px;
+
+}

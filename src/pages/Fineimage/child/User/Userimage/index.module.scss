@@ -1,0 +1,110 @@
+.all {
+    margin-top: 20px;
+    width: 85vw;
+    margin-left: 7vw;
+}
+
+.title {
+    display: flex;
+    text-align: center;
+    margin-left: 38%;
+
+    .blo {
+        text-align: center;
+        margin: 0 10px;
+        padding: 10px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .blo:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.mymasonrygrid {
+    display: flex;
+    // margin-left: -30px;
+    /* gutter size offset */
+    width: auto;
+}
+
+.mymasonrygrid_column {
+    padding-left: 30px;
+    // /* gutter size */
+    background-clip: padding-box;
+}
+
+.picbox {
+    margin: 10px;
+    overflow: hidden;
+}
+
+.conpic {
+    width: 100%;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.conpic:hover {
+    transform: scale(1.1);
+}
+
+.back {
+    // background: rgba(0, 0, 0, .4);
+    background-color: black;
+    position: absolute;
+    z-index: 100
+}
+
+.pictitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.icf {
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: 5px;
+}
+
+.info {
+    display: flex;
+}
+
+.down {
+    // background-color: black;
+    // color: white;
+    font-size: 13px;
+    padding: 0 7px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+
+    cursor: pointer;
+}
+
+.goods {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    // top: -3px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.look {
+    background-color: rgb(243, 243, 243);
+    // color: white;
+    font-size: 13px;
+    padding: 0 7px;
+    height: 20px;
+    position: relative;
+    left: -10px;
+    border: 1ps solid rgb(193, 193, 193);
+    cursor: pointer;
+}

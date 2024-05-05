@@ -1,0 +1,269 @@
+.gall {
+    float: left;
+    width: 27%;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+    height: 180px;
+    transition: all .2s linear;
+}
+
+.pic {
+    // width: 100px;
+    text-align: center;
+
+    .img {
+        width: 70px;
+        // height: 70px;
+        border-radius: 100%;
+    }
+}
+
+.content {
+    text-align: center;
+    line-height: 20px;
+
+    .name {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .divid {
+        width: 15px;
+        height: 2px;
+        background-color: black;
+        position: relative;
+        left: 46%;
+        margin: 5px 0
+    }
+
+    .nickname {
+        font-size: 12px;
+    }
+}
+
+.moreinfo {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.gall:hover {
+    height: 250px;
+}
+
+//add css
+.card {
+    float: left;
+    width: 25%;
+    // width: 190px;
+    height: 234px;
+    position: relative;
+    border-radius: 40px;
+    transition: all 0.8s;
+    perspective: 600px;
+    margin: 10px 4%;
+    perspective-origin: center bottom;
+}
+
+.upperpart {
+    width: 100%;
+    height: 45%;
+    border-radius: 40px 40px 0 0;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.9s;
+}
+
+.upperpartback {}
+
+.upbaf {
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+    padding: 10px
+}
+
+.upperpartface,
+.upperpartback {
+    text-align: center;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+    // border: 1px solid rgb(33, 125, 255);
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    // padding: 15px;
+    border-radius: 40px 40px 0 0;
+    font-weight: bold;
+    z-index: 2;
+    backface-visibility: hidden;
+    transition: all 0.6s;
+}
+
+.upperpartback {
+    background-color: black;
+    color: lightgray;
+    transform: rotatex(180deg);
+}
+
+.pic {
+    width: 60px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.lowerpart {
+    width: 100%;
+    height: 35%;
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform-origin: center top;
+    transition: all 0.9s;
+}
+
+.lowerpartface {
+    border: 1px solid white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+    text-align: center;
+    font-size: 14px;
+}
+
+.lowerpartface,
+.lowerpartback {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 0 0 40px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0, -0.8px);
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.lowerpartback {
+    backface-visibility: visible;
+    border-radius: 40px;
+    // border: 1px solid rgb(33, 125, 255);
+    color: white;
+    background-color: black;
+    transform: rotateX(180deg);
+    z-index: 1;
+    transition: border-radius 0.6s;
+}
+
+.lowerpartback {
+    // width: 98%;
+}
+
+.card:hover>.upperpart {
+    transform: rotatex(-0.5turn);
+}
+
+.card:hover>.lowerpart {
+    transform: translateY(88.3px) rotateX(0.5turn);
+}
+
+.card:hover>.lowerpart>.lowerpartback {
+    // border: 1px solid rgb(33, 125, 255);
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.062);
+    border-radius: 0 0 40px 40px;
+}
+
+//detail
+.zblist {
+    display: flex;
+    cursor: pointer;
+    margin: 10px 0;
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    width: 250px;
+    padding-bottom: 4px;
+}
+
+.slot {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+    transition: all .3s;
+
+}
+
+.realzb {
+    font-size: 12px;
+    transition: all .5s;
+    text-align: center;
+}
+
+
+
+.zblist:hover {
+    background-size: 100% 2px;
+}
+
+.but {
+    margin-top: 15%;
+}
+
+//button css
+.scene {
+    width: 8em;
+    justify-content: center;
+    align-items: center;
+}
+
+.cube {
+    color: #ccc;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.85s cubic-bezier(.17, .67, .14, .93);
+    transform-style: preserve-3d;
+    transform-origin: 100% 50%;
+    width: 8em;
+    height: 3em;
+}
+
+.cube:hover {
+    transform: rotateX(-90deg);
+}
+
+.side {
+    box-sizing: border-box;
+    position: absolute;
+    display: inline-block;
+    height: 3em;
+    width: 8em;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1.5em;
+    font-weight: bold;
+}
+
+.top {
+    background: wheat;
+    color: #222229;
+    // position: relative;
+    transform: rotateX(90deg) translate3d(0, 0, 2em);
+    box-shadow: inset 0 0 0 5px #fff;
+}
+
+.front {
+    background: #222229;
+    color: #fff;
+    box-shadow: inset 0 0 0 5px #fff;
+    transform: translate3d(0, 0, 2em);
+}

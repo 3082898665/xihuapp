@@ -1,0 +1,148 @@
+.mlist {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.info {
+    display: flex;
+}
+
+.xxinfo {
+    height: 400px;
+    width: 0px;
+    /* background: linear-gradient(to right, rgb(102, 133, 183), #29d6dd); */
+    background-color: rgb(36, 46, 97);
+    z-index: 100;
+    position: absolute;
+    margin-top: 3%;
+    right: 55%;
+    /* display: none; */
+    animation-delay: 0.75s;
+    animation-name: growWidth;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    z-index: 150;
+
+}
+
+@keyframes show1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+        /* 最终宽度 */
+    }
+}
+
+.backinfo {
+    height: 400px;
+    width: 0;
+    background: rgb(144, 93, 93);
+    position: absolute;
+    margin-top: 3%;
+    z-index: 100;
+    right: 55%;
+    animation-delay: 0.5s;
+    animation-name: growWidth;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+.backpic {
+    height: 400px;
+    width: 0;
+    background: rgb(144, 93, 93);
+    position: absolute;
+    z-index: 50;
+    right: 9%;
+    /* animation-delay: 0.5s; */
+    animation-name: growWidth1;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+}
+
+.realpic {
+    width: 0;
+    height: 400px;
+    animation-delay: 0.25s;
+    animation-name: growWidth1;
+    animation-duration: 0.25s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 9%;
+    z-index: 90;
+}
+
+.xxpic {
+    /* width: 700px; */
+    /* height: 200px; */
+    /* position: absolute; */
+
+
+}
+
+@keyframes growWidth1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 700px;
+        /* 最终宽度 */
+    }
+}
+
+@keyframes growWidth {
+    from {
+        width: 0;
+        display: flex;
+    }
+
+    to {
+        width: 400px;
+        /* 最终宽度 */
+    }
+}
+
+.detail {
+    margin: 30px;
+}
+
+.title {
+    font-size: 30px;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+.divid {
+    width: 50px;
+    height: 1px;
+    background-color: white;
+    margin: 10px 0;
+}
+
+.content {
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.but {
+    margin-top: 40%;
+    color: white;
+    font-size: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, white, rgb(41, 201, 216)) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    padding-bottom: 5px;
+    width: 100px;
+}
+
+.but:hover {
+    background-size: 100% 2px;
+}

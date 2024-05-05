@@ -1,0 +1,336 @@
+* {
+    /* 页面初始化 清除页面元素原有的内外边距 */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* 三个元素都需要弹性布局 写一块 */
+
+}
+
+
+.actpic {
+    width: 100px;
+    position: relative;
+    left: 20px;
+
+}
+
+.navbar:hover {
+    opacity: 1;
+}
+
+.navbar {
+    opacity: 0.0;
+    /* 相对定位 */
+    position: fixed;
+    top: 2%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 4px #00000008;
+
+    width: 200px;
+    transition: all 0.5s;
+    padding: 5px;
+    height: 60px;
+    z-index: 10000;
+}
+
+.navbaro {
+    /* 相对定位 */
+    position: fixed;
+    top: 2%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 16px 4px #00000008;
+    width: 950px;
+    transition: all 0.5s;
+    height: 360px;
+    z-index: 10000;
+}
+
+.navbar input {
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s;
+    position: relative;
+    left: 42px;
+    z-index: 100;
+}
+
+.navbaro input {
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.5s;
+    position: relative;
+    left: 42px;
+    z-index: 100;
+}
+
+.dhcon {
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.9s;
+    position: relative;
+    left: 42px;
+    z-index: 100;
+}
+
+.dhcono {
+    width: 40px;
+    height: 40px;
+    /* margin-left: 10px; */
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.9s;
+    position: relative;
+    left: 42px;
+    z-index: 100;
+    transform: translateX(750px);
+}
+
+.navbaro input:checked {
+    transform: translate(750px);
+}
+
+.navbao input:checked {
+    transform: translate(750px);
+}
+
+.gomenu {
+    position: relative;
+    width: 41px;
+    transition: all 0.5s;
+    top: 2px;
+}
+
+.gomenuo {
+    position: relative;
+    width: 41px;
+    transition: all 0.5s;
+    top: 2px;
+    transform: translate(750px);
+}
+
+/* .navbar input:checked~.gomenu {
+    transform: translate(300px);
+}
+
+.navbaro input:checked~.gomenu {
+    transform: translate(300px);
+} */
+
+.navbar ul {
+    /* display: none; */
+    display: flex;
+}
+
+.navbaro ul {
+    /* display: none; */
+    display: flex;
+}
+
+
+.dh {
+    width: 0;
+    /* 溢出隐藏 */
+    overflow: hidden;
+    white-space: nowrap;
+    /* transition: all 0.5s; */
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    transition: linear 0.5s;
+}
+
+.dho {
+    overflow: hidden;
+    white-space: nowrap;
+    /* transition: all 0.5s; */
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    animation-name: dhexo;
+    animation-duration: 0.6s;
+    /* animation-delay: 0.5s; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes dhex {
+    from {
+        width: 950px;
+        height: 300px;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes dhexo {
+    from {
+        display: none;
+    }
+
+    to {
+        width: 950px;
+        height: 300px;
+        display: flex;
+    }
+}
+
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 15px;
+    margin-right: 70px;
+}
+
+.navbar ul li a {
+    /* 取消下划线 */
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: #333;
+}
+
+.navbaro ul li {
+    list-style: none;
+    margin: 0 15px;
+    margin-right: 70px;
+}
+
+.navbaro ul li a {
+    /* 取消下划线 */
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: #333;
+}
+
+.navbar ul li a:hover {
+    color: #fb7299;
+}
+
+.mtitle {
+    color: black;
+    font-size: 17px;
+    font-weight: 550;
+    border-top: 1px solid rgba(11, 10, 10, 0.063);
+    padding-top: 5px;
+    margin-top: -26%;
+    margin-bottom: 40%;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+}
+
+.mtitle:hover {
+    background-size: 100% 2px;
+}
+
+.mback {
+    position: relative;
+    margin-top: 20%;
+}
+
+/* ?Microsoft YaHei */
+.mitem {
+    font-size: 14px;
+    /* font-weight: 550; */
+    color: black;
+    cursor: pointer;
+    height: 25px;
+    line-height: 25px;
+    position: relative;
+    margin-top: -20%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-shadow: none;
+    /* 初始时没有阴影或发光效果 */
+    transition: text-shadow 0.3s ease;
+    width: 60%;
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    /* 添加过渡效果，使发光效果更平滑 */
+    /* 添加过渡效果，使发光效果更平滑 */
+}
+
+.mitem:hover {
+    background-size: 100% 2px;
+}
+
+/* 鼠标悬停时添加白色发光阴影 */
+
+
+
+
+.blackb {
+    /* width: 100%; */
+    height: 17px;
+    background-color: black;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 0.2s;
+    /* animation-delay: 0.5s; */
+    /* 在这里设置延迟时间 */
+    animation-fill-mode: forwards;
+    transition: all 0.5s;
+}
+
+.blackbo {
+    height: 17px;
+    background-color: black;
+    position: relative;
+    transition: all 0.2s;
+    animation-name: example;
+    animation-duration: 0.2s;
+    animation-delay: 0.5s;
+    /* 在这里设置延迟时间 */
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes example {
+    0% {
+        width: 100%;
+    }
+
+    to {
+        width: 0;
+    }
+}
+
+@keyframes example1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}

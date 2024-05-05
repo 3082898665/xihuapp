@@ -1,0 +1,48 @@
+.all {
+    // background-color: rgb(236, 236, 236);
+    height: 125vh;
+    overflow-y: scroll;
+}
+
+
+.title {
+    position: fixed;
+    display: flex;
+    height: 60px;
+    line-height: 40px;
+    font-size: 15px;
+    background-color: white;
+    /* padding-bottom: 5px; */
+    font-weight: 550;
+    font-size: 18px;
+    width: 100vw;
+    margin-top: 12%;
+    // left: 4vw;
+    padding-left: 15%;
+    height: 90px;
+}
+
+.image {
+    width: 200px;
+    margin-top: -2vh;
+    position: relative;
+    left: 25%;
+}
+
+.back {
+    margin-top: 250px;
+}
+
+.imgpic {
+    width: 100vw;
+
+}
+
+.navigate {
+    margin: 30px 40px;
+    cursor: pointer;
+}
+
+.navigate:hover {
+    color: #767373;
+}

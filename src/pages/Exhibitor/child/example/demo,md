@@ -1,0 +1,87 @@
+.all {
+    position: relative;
+    // top: -20vw;
+    background-color: white;
+    height: 100vh;
+
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url('./assets//t1.jpg');
+    z-index: 0;
+    opacity: .7;
+
+}
+
+.title {
+    display: flex;
+    margin-bottom: 1px;
+    margin-top: 12%;
+    color: white;
+    // height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    // background-color: black;
+    /* padding-bottom: 5px; */
+    font-weight: 550;
+    font-size: 18px;
+}
+
+<div className= {
+    style.all
+}
+
+><div className= {
+    style.back
+}
+
+style= {
+        {
+        backgroundImage: `url(${imglists[selectpic]} )`
+    }
+}
+
+></div><div className= {
+    style.title
+}
+
+><div className= {
+    style.main
+}
+
+><img src= {
+    Logo
+}
+
+alt="" className= {
+    style.logo
+}
+
+/></div><div style= {
+        {
+        width: '50%'
+    }
+}
+
+></div><div className= {
+    style.tdetail
+}
+
+>展商风采</div><div className= {
+    style.tdetail
+}
+
+>展商新闻</div><div className= {
+    style.tdetail
+}
+
+>展商信息</div><div className= {
+    style.tdetail
+}
+
+>展商产品</div></div>

@@ -1,0 +1,181 @@
+.all {
+    width: 68vw;
+    margin-left: 18vw;
+    // border: 1px solid;
+    margin-top: 3%;
+    color: black;
+}
+
+.title {
+    border-bottom: 1px solid black;
+    font-family: 'lulo-clean-w01-one-bold', 'lulo-clean-w05-one-bold', 'sans-serif';
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: black;
+}
+
+.upthing {
+    display: flex;
+    height: 20vh;
+    margin-bottom: 30px;
+
+    .uptitle {
+        color: black;
+        cursor: pointer;
+    }
+
+
+
+    .data {
+        width: 10%;
+
+        .databox {
+            width: 50%;
+            position: relative;
+            top: -120px;
+            left: 25%;
+            background-color: rgb(44, 171, 222);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+            top: 30%;
+            border-radius: 5px;
+            padding-bottom: 1px;
+            margin-top: -22%;
+
+            .number {
+                margin-bottom: 10px;
+                text-align: center;
+                position: relative;
+                top: 10px;
+                color: white;
+                font-size: 18px;
+            }
+
+            .month {
+                text-align: center;
+                font-family: 'avenir-lt-w01_85-heavy1475544', 'avenir-lt-w05_85-heavy', 'sans-serif';
+                color: white;
+                font-size: 13px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    .updatas {
+        position: relative;
+        top: 5%;
+        border-bottom: 1px solid;
+        width: 70%;
+    }
+
+    .icon {
+        margin-right: 4px;
+        font-weight: bold;
+    }
+
+    .thing {
+        font-size: 13px;
+        color: black;
+        margin-top: 3px;
+        font-size: 0.8rem;
+        font-weight: 300;
+        font-family: 'avenir-lt-w01_35-light1475496', 'avenir-lt-w05_35-light', 'sans-serif';
+    }
+}
+
+.news {
+    margin-top: 15%;
+}
+
+.newstit {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.conbox {
+    display: flex;
+}
+
+.conleft {
+    width: 44%;
+
+}
+
+.conright {
+    width: 44%;
+    margin-left: 5%;
+    // margin-top: 10px;
+}
+
+//card css
+.card {
+    box-shadow: 7px 7px 20px rgba(65, 65, 65, 0.2);
+    margin-top: 20px;
+    position: relative;
+    width: 96%;
+    height: 250px;
+    background-color: white;
+    // border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    // border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow: 17px 17px 86px #b5b5b5,
+        -17px -17px 86px #ffffff;
+}
+
+.card .picimg {
+    width: 100%;
+    height: 100%;
+    fill: #333;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.cardcontent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 7px 7px 20px rgba(65, 65, 65, 0.2);
+}
+
+.card:hover .cardcontent {
+    transform: rotateX(0deg);
+}
+
+.cardtitle {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card:hover .picimg {
+    scale: 0;
+}
+
+.carddescription {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+}

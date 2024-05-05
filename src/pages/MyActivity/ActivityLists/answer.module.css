@@ -1,0 +1,48 @@
+.all {
+    margin-left: -7%;
+    padding: 10px;
+}
+
+.title {
+    margin: 10px;
+    font-size: 18px;
+    /* font-weight: 550; */
+    color: black;
+    /* letter-spacing: 2px; */
+}
+
+.but {
+    display: flex;
+    margin-top: 10px;
+}
+
+.addlj {
+    cursor: pointer;
+}
+
+.ljiepic {
+    width: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.fake {
+    margin-top: 2px;
+    margin-left: 20%;
+}
+
+.sub {
+    border: 1px solid white;
+    color: black;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 2px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 0.075rem var(--white);
+}
+
+.sub:hover {
+    background-color: rgba(243, 243, 243, 0.067);
+
+}

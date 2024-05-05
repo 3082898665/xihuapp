@@ -1,0 +1,32 @@
+.all {}
+
+.title {
+    display: flex;
+}
+
+.mypet {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+    /* color: black; */
+}
+
+.mypet:hover {
+    border-bottom: 1px solid;
+}
+
+.petshop {
+    margin: 0 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.petshop:hover {
+    border-bottom: 1px solid;
+}
+
+.content {
+    padding: 10px;
+}

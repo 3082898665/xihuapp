@@ -1,0 +1,117 @@
+.all {
+    display: flex;
+}
+
+.left {
+    width: 20%;
+    height: 70vh;
+    border-right: 1px solid rgb(185, 184, 184);
+}
+
+/* loong */
+.card {
+    width: 150px;
+    height: 90px;
+    background: #ffff;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transform: translate(-50%, -50%);
+    /* top: 50%; */
+    margin-top: 30%;
+    left: 40%;
+    padding: 12px 10px;
+    cursor: pointer;
+}
+
+.cardload {
+    width: 50px;
+    /* height: 50px; */
+    position: relative;
+    float: left;
+    /* background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%); */
+    /* border-radius: 50%; */
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.pic {
+    width: 130%;
+    height: 80px;
+}
+
+.cardloadextremetitle {
+    width: 90px;
+    height: 20px;
+    font-size: 13px;
+
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+    padding: 2px;
+}
+
+.cardloadextremedescripion {
+    padding: 2px;
+    width: 90px;
+    height: 60px;
+    position: relative;
+    float: right;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #e5e5e5 30%, #f0f0f0 38%, #f0f0f0 40%, #e5e5e5 48%);
+    margin-top: 10px;
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load89234 2s infinite;
+    font-size: 13px;
+}
+
+@keyframes load89234 {
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+.right {
+    display: flex
+}
+
+.rpet {
+    width: 65%
+}
+
+.rpic {
+    width: 20%
+}
+
+.rpic {
+    width: 100%;
+}
+
+.petinfo {
+    padding-left: 10px;
+}
+
+.petinfo {
+    width: 35%;
+}
+
+.title {
+    border: 2px solid rgb(243, 243, 243);
+    padding: 5px;
+    font-size: 12px;
+    color: rgb(168, 167, 167);
+    ;
+}
+
+.infode {
+    font-size: 15px;
+    /* font-weight: ; */
+
+}

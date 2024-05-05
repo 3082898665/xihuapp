@@ -1,0 +1,245 @@
+.all {
+    position: relative;
+    /* top: -20vw; */
+    background-color: white;
+    height: 117vh;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 1px;
+    margin-top: 6.5%;
+    position: relative;
+    background-color: black;
+    /* padding-bottom: 5px; */
+}
+
+.tdetail {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 80px;
+}
+
+.data {
+    background-color: black;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    height: 20px;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.month {
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 550;
+
+}
+
+.md {
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 550;
+}
+
+.rq {
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.divid {
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    margin: 5px 0
+}
+
+.year {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.word {
+    background-color: rgb(36, 45, 96);
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    margin-left: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+}
+
+.tword {
+    /* margin-top: 10px; */
+}
+
+.wword {
+    font-size: 15px;
+
+}
+
+.tlogo {
+    margin-left: 20%;
+    margin-top: 85px;
+    display: flex;
+}
+
+.cname {
+    font-size: 18px;
+    color: rgb(24, 33, 105);
+    color: white;
+    letter-spacing: 2px;
+}
+
+.ename {
+    font-size: 15px;
+    margin-left: 10px;
+    color: rgb(102, 133, 183);
+    color: white;
+    margin-top: 1%;
+}
+
+.long {
+    width: 70px;
+    height: 1px;
+    background-color: rgb(36, 45, 96);
+    margin: 0 10px
+}
+
+.tcdivid {
+    display: flex;
+    margin-top: 180px;
+    height: 1px;
+    /* margin: 20px 0; */
+    padding: 10px;
+}
+
+.shot {
+    width: 20px;
+    height: 1px;
+    background-color: rgb(36, 45, 96);
+}
+
+.mainnav {
+    display: flex;
+    padding: 5px 20px;
+    position: relative;
+
+}
+
+.chance {
+    margin: 0 20px;
+    font-size: 18px;
+    /* font-weight: 550; */
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    cursor: pointer;
+
+}
+
+.chance:hover {
+    color: white;
+    background-color: black;
+}
+
+.hdiv {
+    width: 98%;
+    height: 2px;
+    background-color: rgb(36, 45, 96);
+    margin-bottom: 3px;
+    margin-left: 1%;
+}
+
+.bdiv {
+    width: 98%;
+    height: 1px;
+    background-color: rgb(36, 45, 96);
+    margin-left: 1%;
+    margin-bottom: 3px;
+}
+
+.actcontent {
+    position: absolute;
+    width: 99vw;
+    height: 100px;
+    display: flex;
+}
+
+.actcontent {
+
+    margin-left: 5%;
+}
+
+.actleft {
+    width: 60%;
+    border-right: 2px solid;
+    height: 600px;
+    padding-right: 20px;
+}
+
+.lbp {
+    width: 100%;
+    height: 500px;
+}
+
+.actlpic {
+    margin-bottom: 20px;
+}
+
+.acttitle {}
+
+.titdiv {
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.listdiv {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(212 204 204);
+    position: relative;
+    top: -20px;
+}
+
+.actright {
+    margin-left: 20px;
+
+}
+
+.counter {
+    opacity: .8;
+    display: flex;
+    height: 110px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(250, 223, 134);
+}
+
+.atv {
+    width: 30%;
+    margin-top: 5%;
+}
+
+.headerpic {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.detail {
+    margin-top: 2%;
+
+}
+
+.acc {
+    height: 40px;
+    border-bottom: 1px solid;
+}

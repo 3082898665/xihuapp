@@ -1,0 +1,94 @@
+.all {
+    position: relative;
+    // top: -20vw;
+    background-color: white;
+    height: 100vh;
+    // cursor: pointer;
+}
+
+.back {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url('./assets//t1.jpg');
+    background-repeat: no-repeat;
+    z-index: 0;
+    opacity: .8;
+    // margin-top: -5%;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 1px;
+    margin-top: 12%;
+    color: white;
+    // height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+    // background-color: black;
+    /* padding-bottom: 5px; */
+    font-weight: 550;
+    font-size: 18px;
+}
+
+.pic {
+    width: 850px;
+    height: 450px;
+    margin: 40px;
+
+}
+
+.logo {
+    width: 100px;
+    // width: 20%;
+    position: relative;
+    left: 2vw;
+    top: 10px;
+}
+
+.video {
+    width: 850px;
+    height: 450px;
+    margin: 40px;
+}
+
+.tdetail {
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+    font-weight: 550;
+    height: 30px;
+}
+
+.tdetail:hover {
+    border-bottom: 1px solid white;
+}
+
+.picfont {
+    z-index: 10;
+
+}
+
+.fontt {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -13vh;
+    left: -3vw;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.fontb {
+    color: white;
+    position: relative;
+    top: -11vh;
+    left: 20vw;
+    font-size: 20px;
+    letter-spacing: 1px;
+}

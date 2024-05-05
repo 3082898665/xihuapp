@@ -1,0 +1,64 @@
+.all {
+    position: relative;
+    /* margin-top: -89vw; */
+}
+
+.list {
+    width: 200px;
+    margin-left: 120px;
+    z-index: 100;
+}
+
+.tit {
+
+    background: linear-gradient(to right, #2184cb, #2db1ba);
+    height: 150px;
+    width: 40rem;
+    -webkit-clip-path: polygon(0 0, 96% 0, 74% 100%, 0 100%);
+    clip-path: po1ygon(0 0, 96% 0, 74% 100%, 0 100%);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-left: 9rem;
+    color: #fff;
+    margin-top: -.1rem;
+    transform: scale(0.4);
+}
+
+.hs {
+    font-family: "Arial", "Helvetica Neue", "sans-serif", "pingfang SC", "Hiragino Sans GB", "微软雅黑", "microsoft yahei", "宋体", "simsun";
+    font-size: 3.5rem;
+    line-height: calc(2.4rem + 1.6rem);
+}
+
+.ss {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.5rem;
+}
+
+.contentlist {
+    left: -150px;
+    width: 650px;
+    top: -1.5vh;
+    /* padding: 0 220px; */
+    position: relative;
+    margin-left: 20rem;
+    display: flex;
+    margin-top: 4%;
+    /* width: 300px; */
+    height: 60px;
+    box-shadow: 0 0 1.8rem -0.2rem rgba(132, 208, 253, .3);
+
+}
+
+.confont {
+    font-size: 20px;
+    /* margin-right: 10%; */
+    margin-left: 160px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all .3 ease-in;
+    font-weight: 550;
+    cursor: pointer;
+}

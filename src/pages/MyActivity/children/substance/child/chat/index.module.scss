@@ -1,0 +1,60 @@
+.all {
+    width: 75vw;
+    height: 90vh;
+    overflow: hidden;
+    // position: absolute;
+}
+
+.chatlist {
+    width: 75vw;
+    height: 80vh;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    // position: absolute;
+}
+
+.allcon {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid rgb(213, 210, 210);
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.conpic {
+    margin-right: 10px;
+
+    .pichead {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+
+}
+
+
+.confont {
+    .time {
+        color: rgb(164, 162, 162);
+        font-size: 12px;
+        text-align: left;
+    }
+}
+
+.plun {
+    text-align: left;
+    position: relative;
+    margin-top: 1%;
+}
+
+.int {
+    width: 50vw;
+
+}
+
+.bq {
+    position: absolute;
+    top: -68vh;
+    z-index: 1000
+}

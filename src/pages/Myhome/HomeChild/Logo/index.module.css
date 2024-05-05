@@ -1,0 +1,101 @@
+.all {
+    position: relative;
+    top: -105vw;
+    /* margin-left: 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 350px;
+    margin-bottom: -100vw;
+}
+
+.name {
+    position: absolute;
+    margin-top: -28%;
+}
+
+.allscroll {
+    display: flex;
+    width: 900px;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+}
+
+.allscroll>div span {
+    display: inline-block;
+    margin: 10px;
+    padding: 5px 10px;
+    /* background-color: #333; */
+    border-radius: 5px;
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.allscroll>div span:hover {
+    /* background-color: #4caf50; */
+}
+
+
+.allscroll>div {
+    white-space: nowrap;
+    animation: animate var(--t) linear infinite;
+    animation-delay: calc(var(--t) * -1);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.allscroll>div:nth-child(2) {
+    animation: animate2 var(--t) linear infinite;
+    animation-delay: calc(var(--t) / -2);
+}
+
+@keyframes animate2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+.allscroll:hover>div {
+    animation-play-state: paused;
+}
+
+
+@media screen and (max-width: 768px) {
+    .allscroll {
+        width: 90vw;
+    }
+
+    .allscroll>div span {
+        /* background-color: #4caf50; */
+    }
+
+    .img-box img {
+        width: 100px;
+        height: 50px;
+        filter: grayscale(0);
+    }
+}
+
+.pic {
+    width: 60px;
+    height: 53px;
+}

@@ -1,0 +1,20 @@
+.all {
+    background-color: white;
+    border-radius: 10px;
+    /* background: #e0e0e0; */
+    box-shadow: 5px 5px 5px #cccccc,
+        -5px -5px 5px #f4f4f4;
+    margin: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+.title {
+    line-height: 30px;
+    margin: 30px 0
+}
+
+.content {
+    display: flex;
+    height: 500px;
+}

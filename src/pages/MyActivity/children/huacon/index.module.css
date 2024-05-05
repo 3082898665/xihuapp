@@ -1,0 +1,21 @@
+.all {
+    text-align: center;
+}
+
+.font {
+    position: relative;
+    left: 30vw;
+    font-size: 30px;
+    font-weight: 550;
+    top: 50px;
+}
+
+.imgp {
+    position: relative;
+    top: 200px;
+}
+
+.picimg {
+    width: 1000px;
+    margin-left: 200px;
+}

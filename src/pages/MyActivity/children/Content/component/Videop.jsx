@@ -1,0 +1,20 @@
+import React, { useEffect, useRef } from 'react';
+
+export const VideoPlayer = ({ user }) => {
+    const ref = useRef();
+
+    useEffect(() => {
+
+        user.videoTrack.play(ref.current);
+    }, []);
+
+    return (
+        <div>
+
+            <div
+                ref={ref}
+                style={{ width: '100%', height: '60vh' }}
+            ></div>
+        </div>
+    );
+};

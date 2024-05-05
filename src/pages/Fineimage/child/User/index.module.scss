@@ -1,0 +1,84 @@
+.all {
+    display: flex;
+    margin-left: 10px;
+}
+
+.left {
+    width: 20%;
+    border-right: 1px solid rgb(214, 214, 214);
+    margin-bottom: 20px;
+}
+
+.right {
+    padding-left: 20px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.rtit {
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.rank {
+    margin-right: 12px;
+}
+
+.picbox {
+    display: flex;
+}
+
+.picbox {
+    width: 100%;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed rgb(184, 184, 184);
+    margin: 10px 0;
+
+    .picboxs {
+        width: 30%;
+    }
+
+    img {
+        width: 100px;
+        padding: 2px;
+    }
+
+    .good {
+        width: 14px;
+        position: relative;
+        top: 5px;
+        // margin-left: 20px;
+    }
+
+    .infobox {
+        font-size: 12px;
+    }
+}
+
+
+
+.newbox {
+    position: relative;
+    left: 30px;
+    margin-left: 15px;
+    top: 5px;
+    color: rgb(178, 178, 178);
+    font-size: 15px;
+}
+
+.myinfo {
+    margin-top: 20px;
+}
+
+.heads {
+    color: rgb(178, 178, 178);
+    font-size: 13px;
+
+}
+
+.contit {
+    margin-top: 10px;
+}

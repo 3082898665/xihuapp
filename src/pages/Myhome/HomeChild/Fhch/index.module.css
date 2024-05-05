@@ -1,0 +1,140 @@
+.all {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: -2%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    height: 190px;
+}
+
+/* rgba(23,26,29,.6) */
+.wsitem {
+    height: 150px;
+    width: 20%;
+    margin-right: 2%;
+    z-index: 100;
+    background-color: white;
+    padding: 15px 30px;
+    /* background-color: white; */
+    box-shadow: 5px 5px 5px 0px rgba(229, 223, 223, 0.75), 5px 5px 5px 0px rgba(229, 223, 223, 0.75);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+.wsitem:hover {
+    /* transform: scale(1.1); */
+    background: #1c92d2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow:
+        0 0 10px rgba(233, 230, 230, 0.808),
+        /* 顶部阴影 */
+        0 10px 10px rgba(233, 230, 230, 0.808),
+        /* 底部阴影 */
+        5px 0 5px rgba(233, 230, 230, 0.808),
+        /* 右侧阴影 */
+        -5px 0 5px rgba(233, 230, 230, 0.808);
+    /* 左侧阴影 */
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 5px;
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    width: 100px;
+    background: linear-gradient(to right, #2b76bc, #29d6dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.contentw {
+
+    color: black;
+    /* height: 40px; */
+    line-height: 1.9;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contentw span {
+
+    background: linear-gradient(to right, black, black) no-repeat left bottom;
+    background-size: 0 1px;
+    transition: background-size 0.5s;
+    padding-bottom: 5px;
+}
+
+.contentw span:hover {
+    background-size: 100% 2px;
+}
+
+.wsitem:hover .title {
+    background-size: 100% 2px;
+}
+
+.wbut {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 4px;
+    /* background-color: #3d405b; */
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 130px;
+    transition: all 0.5s;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    /* margin: 5px; */
+    width: 110px;
+    background: linear-gradient(90deg, #1e7acf 0, #0d878f 100%);
+    /* position: absolute; */
+    margin-top: 10%;
+}
+
+.wsitem:hover .wbut {
+    background: rgb(231, 243, 255);
+    color: black;
+}
+
+.wbut span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.wbut span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+
+}
+
+.wbut:hover span {
+    padding-right: 15px;
+
+}
+
+.wbut:hover span:after {
+    opacity: 1;
+    right: 0;
+}

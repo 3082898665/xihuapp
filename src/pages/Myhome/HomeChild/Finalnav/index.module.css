@@ -1,0 +1,115 @@
+.all {
+    height: 90vh;
+    width: 1090vw;
+    /* background: linear-gradient(to right, rgb(102, 133, 183), #29d6dd); */
+    position: relative;
+    background-color: black;
+    padding: 50px;
+    /* background-color: black; */
+    /* top: 10px; */
+    color: white
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.divid {
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    font-weight: 550;
+}
+
+.cont {
+    margin-top: 50px;
+    display: flex;
+}
+
+.fa {
+    width: 19vw;
+}
+
+.itemtit {
+    font-size: 20px;
+}
+
+.item {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    background: linear-gradient(to right, white, white) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    width: 73px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-size: 100% 2px;
+
+}
+
+.itemtits {
+    cursor: pointer;
+    font-size: 20px;
+    background: linear-gradient(to right, white, white) no-repeat left bottom;
+    background-size: 0 2px;
+    transition: all 0.5s;
+    width: 120px;
+    margin-bottom: 100px;
+}
+
+.itemtits:hover {
+    background-size: 100% 2px;
+
+}
+
+.divc {
+    width: 90vw;
+    /* margin-left: 1.5vw; */
+    background-color: white;
+    height: 1px;
+    margin-top: 30px;
+}
+
+.left {
+    margin-top: 40px;
+    width: 30vw;
+}
+
+.main {
+    display: flex;
+}
+
+.logof {
+    width: 250px;
+
+    /* height: 100px; */
+    margin-top: -35px;
+}
+
+.middle {
+    width: 30vw;
+}
+
+.middlepic {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.logofont {
+    cursor: pointer;
+    font-size: 13px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.picr {
+    width: 150px;
+    margin-top: 20px;
+}

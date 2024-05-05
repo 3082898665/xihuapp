@@ -1,0 +1,24 @@
+.all {
+    background-color: white;
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    line-height: 40px;
+    position: relative;
+    top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.infobox {
+    height: 70px;
+}
+
+.content {
+    padding-bottom: 70px;
+}

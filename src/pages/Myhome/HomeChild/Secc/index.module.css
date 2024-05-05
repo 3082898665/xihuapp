@@ -1,0 +1,133 @@
+.all {
+    text-align: center;
+}
+
+.tt {
+    background: linear-gradient(to right, #2b76bc, #29d6dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.tb {
+    background: linear-gradient(to right, #2b76bc, #29d6dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+}
+
+.mlist {
+    margin-top: 50px;
+    margin-left: 20%;
+}
+
+.info {
+    display: flex;
+}
+
+.xxinfo {
+    height: 400px;
+    width: 0;
+    background: linear-gradient(to right, #2b76bc, #29d6dd);
+    z-index: 100;
+    position: absolute;
+    margin-top: 3%;
+    right: 55%;
+    /* display: none; */
+    animation-delay: 1.5s;
+    animation-name: growWidth;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    z-index: 150;
+
+}
+
+.xxdetail {
+
+    width: 0;
+    animation-delay: 2s;
+    animation-name: show1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes show1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+        /* 最终宽度 */
+    }
+}
+
+.backinfo {
+    height: 400px;
+    width: 0;
+    background: rgb(144, 93, 93);
+    position: absolute;
+    margin-top: 3%;
+    z-index: 100;
+    right: 55%;
+    animation-delay: 1s;
+    animation-name: growWidth;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.backpic {
+    height: 400px;
+    width: 0;
+    background: rgb(144, 93, 93);
+    position: absolute;
+    z-index: 50;
+    right: 9%;
+    /* animation-delay: 0.5s; */
+    animation-name: growWidth1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.realpic {
+    width: 0;
+    height: 400px;
+    animation-delay: 0.5s;
+    animation-name: growWidth1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    right: 9%;
+    z-index: 90;
+}
+
+.xxpic {
+    /* width: 700px; */
+    /* height: 200px; */
+    /* position: absolute; */
+
+
+}
+
+@keyframes growWidth1 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 700px;
+        /* 最终宽度 */
+    }
+}
+
+@keyframes growWidth {
+    from {
+        width: 0;
+        display: flex;
+    }
+
+    to {
+        width: 400px;
+        /* 最终宽度 */
+    }
+}

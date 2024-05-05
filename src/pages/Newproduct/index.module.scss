@@ -1,0 +1,128 @@
+.all {
+    position: relative;
+    top: 1vw;
+    background-color: rgb(250, 250, 250);
+    // height: 225vh;
+    overflow-y: scroll;
+}
+
+.content {
+    height: 200vh;
+    background-color: rgb(236 236 236 / 22%);
+    // position: relative;
+    top: 44vh;
+    // overflow-y: scroll;
+}
+
+.title {
+    display: flex;
+    margin-bottom: 1px;
+    color: white;
+    height: 60px;
+    line-height: 40px;
+    font-size: 15px;
+    padding: 10px;
+    // position: fixed;
+    z-index: 10;
+    background-color: white;
+    /* padding-bottom: 5px; */
+    font-weight: 550;
+    font-size: 18px;
+    width: 90vw;
+    margin-top: 11%;
+    margin-bottom: 20px;
+    margin-left: 4vw;
+    // border-radius: 10px;
+
+    .logobox {
+        // background-color: black;
+        width: 150px;
+        margin-top: 15px;
+        height: 60px;
+        position: relative;
+        left: 10px;
+        text-shadow: 0 0 4px #32003C,
+            0 0 2px black,
+            0 0 2px black,
+            0 0 2px black,
+            0 0 2px black,
+            0 0 2px black,
+            0 0 2px black;
+        color: #fff;
+        font-size: 30px;
+        letter-spacing: 3px;
+        margin-right: 20px;
+    }
+
+    .search {
+        margin-top: 11px;
+        // margin-left: 10%;
+        border-left: 3px solid rgb(236, 236, 236);
+        padding-left: 20px;
+
+    }
+
+    .showpic {
+        border-left: 3px solid rgb(236, 236, 236);
+        margin-left: 50px;
+        padding-left: 20px;
+        margin-top: 11px;
+        color: black;
+    }
+
+    .logopic {
+        width: 120px;
+        height: 50px;
+    }
+}
+
+.logo {
+    width: 100px;
+    margin-top: 5px;
+}
+
+//search css
+.inputcontainer {
+    width: 59vw;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: calc(50% + 5px);
+    transform: translateY(calc(-50% - 5px));
+}
+
+.input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    transition: .2s linear;
+    border: 2.5px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.input:focus {
+    outline: none;
+    border: 0.5px solid black;
+    box-shadow: -5px -5px 0px black;
+}
+
+.inputcontainer:hover>.icon {
+    animation: anim 1s linear infinite;
+}
+
+@keyframes anim {
+
+    0%,
+    100% {
+        transform: translateY(calc(-50% - 5px)) scale(1);
+    }
+
+    50% {
+        transform: translateY(calc(-50% - 5px)) scale(1.1);
+    }
+}

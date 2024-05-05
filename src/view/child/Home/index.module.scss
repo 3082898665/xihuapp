@@ -1,0 +1,140 @@
+.all {
+    align-items: left;
+    position: absolute;
+    width: 86vw;
+    padding: 16px;
+    display: flex;
+}
+
+.con {
+    width: 75%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    text-align: left;
+    height: 75vh;
+}
+
+.con div {
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.first {
+    box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+}
+
+.title {
+    height: 20px;
+    line-height: 20px;
+    margin: 1rem;
+    font-weight: 550;
+    font-size: 17px;
+}
+
+.contain {
+    height: 20px;
+    line-height: 20px;
+}
+
+.num {
+    margin-left: 14px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.used {
+    margin-left: 15%;
+    position: relative;
+    top: -5px;
+    color: rgb(175, 175, 178);
+}
+
+.usedd {
+    margin-left: 6%;
+    position: relative;
+    margin-top: 5%;
+    top: -5px;
+    color: rgb(175, 175, 178);
+}
+
+.cir {
+    position: relative;
+    width: 50px;
+    margin-left: 63%;
+    margin-top: -20%;
+}
+
+.xian {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+}
+
+.xian1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+}
+
+.numbao {
+    font-size: 12px;
+    color: rgb(220, 215, 215);
+    margin-left: 10px;
+}
+
+//   box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+.conr {
+    // margin-top: -1%;
+    width: 29%;
+    margin-left: 20px;
+    // background-color: white;
+    border-radius: 10px;
+}
+
+.rt {
+    box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+    background-color: white;
+    height: 45vh;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+
+.rb {
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(139, 139, 139, 0.22);
+    background-color: white;
+    height: 40vh;
+    padding-top: 1px;
+    border-radius: 10px;
+}
+
+.rpart {
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    border-bottom: 1px solid rgb(212, 212, 216);
+    padding: 0 0px;
+}
+
+.pic {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 4%;
+    margin-right: 10px;
+
+}
+
+.sname {
+    font-size: 16px;
+    font-weight: 550;
+    width: 40%;
+}

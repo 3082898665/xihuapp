@@ -1,0 +1,57 @@
+.scroll {
+    width: 45vw;
+    height: 99vw;
+    box-sizing: border-box;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    transform-origin: 100px 0;
+    transform: rotate(-90deg);
+    left: -100px;
+    margin-top: 20%;
+}
+
+.contentbox {
+    width: 3000px;
+    height: 100px;
+
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    line-height: 100px;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    margin-left: 85%;
+    display: flex;
+}
+
+
+.conpic {
+    width: 99vw;
+    height: 45vw;
+}
+
+.confont {
+    position: relative;
+    top: -70vh;
+    color: white;
+    left: 10%;
+    width: 80vw;
+}
+
+.contit {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.contit2 {
+    font-size: 3rem;
+    line-height: 70px;
+}
+
+.concont {
+    font-size: 15px;
+    width: 30vw;
+    line-height: 30px;
+}
